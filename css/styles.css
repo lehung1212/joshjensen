@@ -1,0 +1,177 @@
+body {
+  font-family: "Muli", sans-serif;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  padding-bottom: 2%;
+  letter-spacing: 8px;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-size: 1.75rem;
+}
+
+
+p {
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+
+.brandName {
+  padding: 2% ;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.nameTitle {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 2rem;
+}
+.joshicon {
+  height: 3%;
+  width: 3%;
+}
+
+
+
+.coverBlock {
+  color: white;
+  position: relative;
+  background-image: url("Newcover.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.clickyRow {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.clickyCol {
+  height: 700px;
+  width: 100%;
+  padding: 0;
+}
+
+.clickyCol a {
+  color: white;
+}
+.clickyCol a:hover, .clickyCol:hover {
+  color: black;
+  background-color: white;
+  opacity: .5;
+  text-decoration: none;
+}
+
+.navText{
+  padding: 30% 5% 50% 5%;
+}
+
+.bioBlock {
+  color: white;
+  background-color: black;
+  padding: 10% 20%;
+}
+
+.profileBlock {
+  color: white;
+  padding: 10% 30%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75)), url("profileBW.JPG") ;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+
+}
+
+.projectBlock {
+  color: white;
+  position: relative;
+  background-image: url("alt3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.storyBlock {
+  color: white;
+  padding: 10% 30%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75)), url("myjourney.JPG");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.journeyBlock {
+  color: white;
+  position: relative;
+  background-image: url("alt1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.finalNavText {
+    padding: 18%;
+}
+
+.footBlock {
+  padding: 5% 10%;
+}
+.copyright {
+  font-size: .75rem;
+}
+.footbutt {
+  color: black;
+}
+
+.imageItem{
+  width:100%;
+  height: auto;
+}
+
+.carouselBlock{
+  background-color: black;
+  padding: 0 15%;
+}
+.brandSat {
+  padding: 0.5%;
+  text-align:center;
+}
+
+.projectHub {
+  padding: 2%;
+}
+
+.nameTitleSat {
+  letter-spacing: 2px;
+  font-size: 2rem;
+  padding-bottom: 0;
+}
+
+.projectNav {
+  color: black;
+  text-decoration: none;
+}
+
+
+.projectGallery {
+  padding: 1% .5%;
+}
+
+.carouselText {
+  background-color: black;
+  opacity: .5;
+  padding: 0 10%;
+}
+
+.carouselText p {
+  font-size: 1.1rem;
+}
