@@ -1,29 +1,27 @@
 body {
-  font-family: "Muli", sans-serif;
+  font-family: 'Mukta Mahee', sans-serif;
   text-align: center;
 }
 
 h2, h3 {
-  font-family: "Montserrat";
-  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
   padding-bottom: 2%;
   letter-spacing: 8px;
 }
 
 h4 {
-  font-family: "Montserrat";
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.75rem;
 }
-
 
 p {
   line-height: 2;
   font-size: 1.5rem;
 }
 
-
 .brandName {
-  padding: 2% ;
+  padding: 2%;
   padding-bottom: 0;
   text-align: center;
 }
@@ -34,20 +32,20 @@ p {
   letter-spacing: 3px;
   font-size: 2rem;
 }
+
 .joshicon {
   height: 3%;
   width: 3%;
 }
 
-
-
 .coverBlock {
-  color: white;
+  color: #F5F5F5;
   position: relative;
-  background-image: url("Newcover.png");
+  background-image: url("Cover-purple.png");
   background-size: cover;
   background-attachment: fixed;
 }
+
 .clickyRow {
   position: relative;
   width: 100%;
@@ -61,8 +59,9 @@ p {
 }
 
 .clickyCol a {
-  color: white;
+  color: #F5F5F5;
 }
+
 .clickyCol a:hover, .clickyCol:hover {
   color: black;
   background-color: white;
@@ -70,80 +69,108 @@ p {
   text-decoration: none;
 }
 
-.navText{
-  padding: 30% 5% 50% 5%;
+.clickyCol1 a {
+  color: #F5F5F5;
 }
 
-.bioBlock {
-  color: white;
-  background-color: black;
-  padding: 10% 20%;
+.clickyCol1 a:hover, .clickyCol1:hover {
+  color: black;
+  opacity: .5;
+  text-decoration: none;
 }
 
-.profileBlock {
-  color: white;
-  padding: 10% 30%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75)), url("profileBW.JPG") ;
-  background-size: cover;
-  background-position: center;
-  background-attachment: scroll;
 
-}
-
-.projectBlock {
-  color: white;
+.journeyBlock .clickyCol1:hover {
+  color: black;
+  opacity: 1;
   position: relative;
-  background-image: url("alt3.jpg");
+  background-image: url("sustain.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-.storyBlock {
-  color: white;
+.navText {
+  padding: 30% 5% 50% 5%;
+}
+
+.bioBlock {
+  color: #F5F5F5;
+  background-color: black;
+  padding: 10% 20%;
+}
+
+.profileBlock {
+  color: #F5F5F5;
   padding: 10% 30%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75)), url("myjourney.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75)), url("profileBW.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.projectBlock {
+  color: #F5F5F5;
+  position: relative;
+  background-image: url("alt3.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  max-width: 100%;
+}
+
+.storyBlock {
+  color: #F5F5F5;
+  padding: 10% 30%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75)), url("myjourney.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
 }
 
 .journeyBlock {
-  color: white;
+  color: #F5F5F5;
   position: relative;
-  background-image: url("alt1.jpg");
+  background-image: url("sustain.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-
 .finalNavText {
-    padding: 18%;
+  padding: 18%;
+  font-size: 2.3rem;
 }
 
 .footBlock {
-  padding: 5% 10%;
+  padding: 2% 10% 1% 10%;
 }
+
 .copyright {
   font-size: .75rem;
 }
+
 .footbutt {
   color: black;
+  font-size: 1.2rem;
+  letter-spacing: 15px;
 }
 
-.imageItem{
-  width:100%;
+.imageItem {
+  width: 100%;
   height: auto;
 }
 
-.carouselBlock{
+.carouselBlock {
   background-color: black;
   padding: 0 15%;
 }
+
 .brandSat {
   padding: 0.5%;
-  text-align:center;
+  text-align: center;
 }
 
 .projectHub {
@@ -151,6 +178,8 @@ p {
 }
 
 .nameTitleSat {
+  font-family: 'Cinzel',serif;
+  font-weight: bold;
   letter-spacing: 2px;
   font-size: 2rem;
   padding-bottom: 0;
@@ -160,7 +189,6 @@ p {
   color: black;
   text-decoration: none;
 }
-
 
 .projectGallery {
   padding: 1% .5%;
@@ -174,4 +202,29 @@ p {
 
 .carouselText p {
   font-size: 1.1rem;
+}
+
+.susStory {
+  margin: 0 auto;
+  max-width: 40em;
+  line-height: 1.5;
+  padding: 2em 1em;
+  color: #555;
+}
+
+#mailForm {
+  margin: 0 auto;
+  max-width: 60em;
+  line-height: 1.5;
+  padding: 2em 1em;
+  color: #555;
+  text-align: center;
+}
+
+.rotateimg-90 {
+  transform: rotate(-90deg);
+}
+
+.contact-body{
+  background-color : #F5F5F5;
 }
